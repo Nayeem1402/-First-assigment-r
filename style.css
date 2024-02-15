@@ -1,0 +1,72 @@
+ * {
+     font-family: Merriweather;
+ }
+
+/* header section    */
+
+ .h-banner {
+     background-image: url(./image/Banner\ Image.png);
+     max-width: 100%;
+     height: 690px;
+     background-repeat: no-repeat;
+     margin: 50px 200px;
+     background-size: contain;
+     text-align: center;
+     color: white;
+     /* background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);; */
+
+ }
+
+ .new-y {
+     padding-top: 170px;
+ }
+
+ .new-y>h1 {
+     font-size: 72px;
+ }
+
+ .new-y>h3 {
+     font-size: 32px;
+     font-weight: 400;
+ }
+
+/* the main section */
+
+.main{ 
+    margin: 0px 200px;
+}
+ 
+/* .off-offer > h1,h3{
+    color: rgb(255, 0, 0);
+    text-align: center; */
+
+.off-offer >h1{
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+
+.off-offer >h3{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+color: rgb(255, 0, 0);
+text-align: center;
+}
+ 
+ 
+.off-offer >h2{
+ 
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
