@@ -2,7 +2,11 @@
      font-family: Merriweather;
  }
 
-/* header section    */
+ .sp-col {
+     color: rgb(255, 0, 0);
+ }
+
+ /* header section    */
 
  .h-banner {
      background-image: url(./image/Banner\ Image.png);
@@ -30,43 +34,107 @@
      font-weight: 400;
  }
 
-/* the main section */
+ /* the main section */
 
-.main{ 
-    margin: 0px 200px;
-}
- 
-/* .off-offer > h1,h3{
+ .main {
+     margin: 0px 200px;
+ }
+
+ /* .off-offer > h1,h3{
     color: rgb(255, 0, 0);
     text-align: center; */
 
-.off-offer >h1{
-    font-family: Inter;
-    font-size: 88px;
-    font-weight: 700;
-    line-height: 107px;
-    letter-spacing: 0%;
-    color: rgb(255, 0, 0);
-    text-align: center;
-}
+ .off-offer>h1 {
+     font-family: Inter;
+     font-size: 88px;
+     font-weight: 700;
+     line-height: 107px;
+     letter-spacing: 0%;
+     color: rgb(255, 0, 0);
+     text-align: center;
+ }
 
 
-.off-offer >h3{
+ .off-offer>h3 {
+     font-family: Inter;
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 29px;
+     letter-spacing: 0%;
+     color: rgb(255, 0, 0);
+     text-align: center;
+ }
+
+
+ .off-offer>h2 {
+
+     font-size: 48px;
+     font-weight: 700;
+     line-height: 58px;
+     letter-spacing: 0%;
+     text-align: center;
+ }
+
+ .new-year {
+
+     /* position: absolute; */
+
+     width: 802.9px;
+     height: 500px;
+     left: 28%;
+     right: -399px;
+     margin-left: 28%;
+     margin-bottom: 120px;
+
+
+ }
+
+ .placement {
+     font-family: Inter;
+     font-size: 32px;
+     font-weight: 600;
+     line-height: 56px;
+     letter-spacing: 0%;
+     text-align: center;
+
+     border-radius: 16px;
+     background: linear-gradient(180.00deg,
+             rgba(255, 0, 0, 0.1),
+             rgba(255, 0, 0, 0) 100%);
+
+     /* Vector */
+
+     width: 1320px;
+     height: 482px;
+     /* align-items: center; */
+     justify-content: center;
+     /* margin-left: 14.75%; */
+     padding-top: 100px;
+     margin: 0px 300px 120px 300px;
+
+ }
+
+ /* footer  */
+ .foot {
+     background-color: rgb(7, 2, 17);
+     width: 1600px;
+     color: white;
+     height: 609px;
+    padding-inline: 140px;
+
+ }
+
+ .icon {
+     border: 1px dotted rgb(252, 250, 254);
+ }
+
+
+ .foot-3 {
+    color: rgb(255, 255, 255);
     font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
-letter-spacing: 0%;
-color: rgb(255, 0, 0);
-text-align: center;
-}
- 
- 
-.off-offer >h2{
- 
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    letter-spacing: 0%;
-    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    display: flex;
+    justify-content: space-between;
 }
