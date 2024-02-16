@@ -180,6 +180,47 @@
      background: #da190b;
  }
 
+ /* comming soon  */
+
+ .coming_soon {
+     margin: 0px 300px 120px 300px;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .comon-h1 {
+     color: rgb(7, 2, 17);
+     font-family: Merriweather;
+     font-size: 48px;
+     font-weight: 900;
+     text-align: left;
+ }
+
+ .the-p {
+     color: rgba(7, 2, 17, 0.6);
+     font-family: Inter;
+     font-size: 20px;
+     font-weight: 400;
+     text-align: left;
+ }
+
+ .round>img {
+
+     width: 340px;
+     height: 340px;
+ }
+
+ .round {
+     display: flex;
+     border: 15px solid rgb(255, 0, 0);
+     border-radius: 1000px;
+     justify-content: center;
+     align-items: center;
+     width: 400px;
+     height: 400px;
+ }
+
  /* the card section */
 
  .product-card {
@@ -207,15 +248,17 @@
      display: flex;
      /* flex-wrap:wrap; */
      flex-direction: row;
-
+     justify-content: ;
      width: 424px;
      height: 450px;
      border-radius: 16px;
      gap: 24px;
+
  }
-.vartical-gap > div{
-   margin: 24px;
-}
+
+ .vartical-gap>div {
+     margin: 24px;
+ }
 
 
  /* subscribe */
