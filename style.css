@@ -120,21 +120,55 @@
      width: 1600px;
      color: white;
      height: 609px;
-    padding-inline: 140px;
+     padding-inline: 140px;
 
+ }
+
+ #address {
+     align-items: center;
+     padding-top: 40px;
+ }
+
+ .contact-icon>img {
+     width: 18px;
+     height: 18px;
+
+
+
+ }
+
+ .contact-icon {
+     display: flex;
+     gap: 10px;
+     align-items: center;
  }
 
  .icon {
-     border: 1px dotted rgb(252, 250, 254);
+     border: 1px dashed rgb(252, 250, 254);
  }
 
+ .foot-1 {
+     display: flex;
+     font-family: Inter;
+     font-size: 24px;
+     font-weight: 500;
+     justify-content: space-between;
+ }
+
+ .foot-2 {
+     display: flex;
+     gap: 24px;
+     justify-content: center;
+     padding: 48px 0px 47px 0px;
+ }
 
  .foot-3 {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    display: flex;
-    justify-content: space-between;
-}
+     color: rgb(255, 255, 255);
+     font-family: Inter;
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 29px;
+     display: flex;
+     justify-content: space-between;
+     padding: 48px 0px 47px 0px;
+ }
