@@ -182,18 +182,19 @@
 
  /* the card section */
 
- .product-card{
-    margin:120px 300px 100px 300px;
-  
+ .product-card {
+     margin: 120px 300px 100px 300px;
+
  }
 
-#goft{
+ #goft {
 
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;  
+     font-family: Inter;
+     font-size: 24px;
+     font-weight: 500;
 
-}
+ }
+
  .Awesome {
      font-family: Merriweather;
      font-size: 48px;
@@ -202,15 +203,20 @@
  }
 
 
- .card{
-    display: flex;
-     
-    flex-direction: row;     
-    width: 424px;
-height: 450px;
-border-radius: 16px;
-gap: 24px;
+ .card {
+     display: flex;
+     /* flex-wrap:wrap; */
+     flex-direction: row;
+
+     width: 424px;
+     height: 450px;
+     border-radius: 16px;
+     gap: 24px;
  }
+.vartical-gap > div{
+   margin: 24px;
+}
+
 
  /* subscribe */
 
