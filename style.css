@@ -1,5 +1,6 @@
  * {
      font-family: Merriweather;
+
  }
 
  .sp-col {
@@ -17,6 +18,7 @@
      background-size: contain;
      text-align: center;
      color: white;
+     /* opacity: ; */
      /* background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);; */
 
  }
@@ -96,22 +98,107 @@
      line-height: 56px;
      letter-spacing: 0%;
      text-align: center;
-
      border-radius: 16px;
      background: linear-gradient(180.00deg,
              rgba(255, 0, 0, 0.1),
              rgba(255, 0, 0, 0) 100%);
 
-     /* Vector */
-
      width: 1320px;
      height: 482px;
      /* align-items: center; */
-     justify-content: center;
-     /* margin-left: 14.75%; */
+     /* justify-content: center; */
+
      padding-top: 100px;
      margin: 0px 300px 120px 300px;
 
+ }
+
+ /* button */
+ .danger {
+     background-color: #f44336;
+     color: white;
+     border-radius: 8px;
+     width: 167px;
+     height: 56px;
+     font-family: Inter;
+     font-size: 20px;
+     font-weight: 700;
+     border: none;
+ }
+
+ .danger:hover {
+     background: #da190b;
+ }
+
+ /* subscribe */
+
+ .subscribe {
+     position: static;
+     border-radius: 16px;
+     width: 1320px;
+     height: 616px;
+     background: rgba(255, 0, 0, 0.05);
+     text-align: center;
+     /* justify-content: center;
+     justify-items: center; */
+     /* align-items: center; */
+     margin: 120px 300px 100px 300px;
+
+ }
+
+ #down {
+     padding-top: 90px;
+     /* justify-content: center;
+    align-items: center; */
+ }
+
+ .subscribe>div>h1 {
+     font-family: Merriweather;
+     font-size: 48px;
+     font-weight: 900;
+     line-height: 60px;
+     letter-spacing: 0%;
+     text-align: center;
+     text-transform: capitalize;
+ }
+
+ #Dolor{
+     color:rgba(7, 2, 17, 0.6);
+     font-family: Inter;
+     font-size: 20px;
+     font-weight: 400;
+ }
+
+.add-gmail{
+    margin: 0%;
+}
+ #gmail {
+     border-radius: 50px 0px 0px 50px;
+     width: 648px;
+     height: 70px;
+     background: rgb(255, 255, 255);
+     border: none;
+     padding-left: 5%;
+     color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+margin: 0px;
+
+ }
+ 
+ #sub-btn {
+     color: white;
+     font-family: Inter;
+     font-size: 20px;
+     /* padding: 24px 56px 24px 56px; */
+     width: 210px;
+     height: 70px;
+     text-align: center;
+     border-radius: 0px 50px 50px 0px;
+     border: none;
+     background: rgb(255, 0, 0);
+     margin: 0px;
  }
 
  /* footer  */
