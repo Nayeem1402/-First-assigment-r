@@ -242,7 +242,9 @@
      font-weight: 900;
      text-align: left;
  }
-
+ .card>img:hover {
+    opacity: 0.5;
+}
 
  .card {
      display: flex;
