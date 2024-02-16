@@ -91,6 +91,53 @@
 
  }
 
+.party{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+    background-image:  /*linear-gradient(to right, rgb(7, 2, 17),rgba(11, 3, 26, 0) )*/ url(./image/Vectorrr.png); 
+    margin: 0px 300px 120px 300px;
+    /* opacity: .9; */
+
+}
+
+#weallcome{
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+#well{
+    
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.8);
+}
+
+#join{
+    color: white;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+#join{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+/* text-align: center; */
+border: none;
+background-color: none;
+}
  .placement {
      font-family: Inter;
      font-size: 32px;
