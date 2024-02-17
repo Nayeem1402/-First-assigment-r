@@ -221,6 +221,57 @@
      height: 400px;
  }
 
+ /* THE SELLS  */
+ .dificalt {
+     margin: 100PX 300PX;
+ }
+
+
+ .discaount {
+     position: relative;
+     z-index: 7;
+     width: 206.84px;
+     height: 206.84px;
+     left: 230px;
+
+
+
+ }
+
+ .girl {
+     position: absolute;
+     width: 429px;
+     height: 433px;
+     left: 1180px;
+     right: -877.56px;
+     border-radius: 10px;
+     z-index: 6;
+
+ }
+
+
+ .boom {
+      
+     position: relative;
+     width: 796.46px;
+     height: 662.07px;
+     left: -300px;
+     top: -200px;
+     z-index: 5;
+ }
+
+ .redline {
+     border-radius: 16px 0px 16px 16px;
+     position: relative;
+     height: 229px;
+     width: 1320px;
+     top: -300px;
+     z-index: 1;
+
+ }
+
+
+
  /* the card section */
 
  .product-card {
@@ -242,9 +293,10 @@
      font-weight: 900;
      text-align: left;
  }
+
  .card>img:hover {
-    opacity: 0.5;
-}
+     opacity: 0.5;
+ }
 
  .card {
      display: flex;
