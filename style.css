@@ -223,7 +223,7 @@
 
  /* THE SELLS  */
  .dificalt {
-     margin: 100PX 300PX;
+      
  }
 
 
@@ -232,20 +232,22 @@
      z-index: 7;
      width: 206.84px;
      height: 206.84px;
-     left: 230px;
+     left: 850px;
+     top: -200px;
 
 
 
  }
 
  .girl {
-     position: absolute;
+     position: relative;
      width: 429px;
      height: 433px;
-     left: 1180px;
-     right: -877.56px;
+     left: 742px;
+     
      border-radius: 10px;
      z-index: 6;
+     bottom: -5px;
 
  }
 
@@ -255,19 +257,19 @@
      position: relative;
      width: 796.46px;
      height: 662.07px;
-     left: -300px;
-     top: -200px;
+     left: -570px;
+     top: 220px;
      z-index: 5;
  }
 
- .redline {
+ .redlin {
+    border: 1px solid slateblue;
      border-radius: 16px 0px 16px 16px;
      position: relative;
      height: 229px;
      width: 1320px;
-     top: -300px;
-     z-index: 1;
-
+      
+     
  }
 
 
