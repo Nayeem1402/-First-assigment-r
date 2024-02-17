@@ -222,9 +222,7 @@
  }
 
  /* THE SELLS  */
- .dificalt {
-      
- }
+  
 
 
  .discaount {
@@ -244,7 +242,7 @@
      width: 429px;
      height: 433px;
      left: 742px;
-     
+
      border-radius: 10px;
      z-index: 6;
      bottom: -5px;
@@ -253,7 +251,7 @@
 
 
  .boom {
-      
+
      position: relative;
      width: 796.46px;
      height: 662.07px;
@@ -263,13 +261,13 @@
  }
 
  .redlin {
-    border: 1px solid slateblue;
+     border: 1px solid slateblue;
      border-radius: 16px 0px 16px 16px;
      position: relative;
      height: 229px;
      width: 1320px;
-      
-     
+
+
  }
 
 
